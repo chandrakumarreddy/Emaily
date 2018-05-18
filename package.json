@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines":{
-    "node":"^9.4.0",
-    "npm":"^5.6.0"
+  "engines": {
+    "node": "^9.4.0",
+    "npm": "^5.6.0"
   },
   "scripts": {
-    "start":"node index.js",
-    "server":"nodemon index.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/chandrakumarreddy/Emaily#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
   }
 }
